@@ -1,0 +1,15 @@
+{
+    "name": "delphinus_dev/composer",
+    "description": "entrainement sur composer",
+    "require": {
+        "ehime/hello-world": "^1.0"
+    },
+
+
+    "autoload": {
+        "psr4": {
+            "App\\": "src/",
+            "App\\wcs\\": "src/wcs/"
+        }
+    }
+}
