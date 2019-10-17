@@ -6,4 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\wcs\\Bonjour' => $baseDir . '/src/wcs/Bonjour.php',
+    'HelloWorld\\SayHello' => $vendorDir . '/ehime/hello-world/src/HelloWorld/SayHello.php',
 );
